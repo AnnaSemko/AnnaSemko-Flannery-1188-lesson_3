@@ -1,0 +1,47 @@
+@import "null.css";
+
+
+* {
+  color: rgba(211, 121, 121, 0.822);
+}
+
+[class*="name"] {
+  color: rgb(4, 0, 255);
+}
+
+[title="museum"] {
+  color: rgb(28, 153, 28);
+}
+
+.text + p {
+  color: rgb(19, 241, 241);
+}
+
+.text-text ~ p {
+  color: rgb(231, 27, 129);
+}
+.footer > p {
+  color: rgb(230, 245, 27);
+}
+.text span {
+  color: rgba(72, 253, 0, 0.959);
+}
+
+.text-text .span {
+  color: rgb(243, 228, 18);
+}
+.content,
+.text {
+  color: rgb(154, 87, 180);
+}
+.content.text {
+  color: black;
+}
+
+li {
+  color: fuchsia;
+}
+
+.list {
+  color: slategrey;
+}
